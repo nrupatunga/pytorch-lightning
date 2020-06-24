@@ -38,7 +38,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 - Fixed checking if the parameters are a `DictConfig` Object ([#2216](https://github.com/PyTorchLightning/pytorch-lightning/pull/2216))
 
-- Fixed SLURM weights saving ([#2339](https://github.com/PyTorchLightning/pytorch-lightning/pull/2339))
+- Fixed SLURM weights saving ([#2341](https://github.com/PyTorchLightning/pytorch-lightning/pull/2341))
 
 
 ## [0.8.1] - 2020-06-19
