@@ -16,6 +16,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 - Refactored `training_batch` + tests to verify correctness ([#2327](https://github.com/PyTorchLightning/pytorch-lightning/pull/2327), [#2328](https://github.com/PyTorchLightning/pytorch-lightning/pull/2328))
 
+- Refactored training loop ([#2336](https://github.com/PyTorchLightning/pytorch-lightning/pull/2336))
+
 ### Deprecated
 
 ### Removed
@@ -35,6 +37,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Fixed sum(0) for `trainer.num_val_batches` ([#2268](https://github.com/PyTorchLightning/pytorch-lightning/pull/2268))
 
 - Fixed checking if the parameters are a `DictConfig` Object ([#2216](https://github.com/PyTorchLightning/pytorch-lightning/pull/2216))
+
+- Fixed SLURM weights saving ([#2339](https://github.com/PyTorchLightning/pytorch-lightning/pull/2339))
 
 
 ## [0.8.1] - 2020-06-19
